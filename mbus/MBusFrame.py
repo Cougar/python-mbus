@@ -13,7 +13,7 @@ MBusFrame._fields_ = [
         ("start2",   c_uint8),
         ("control",  c_uint8),
         ("address",  c_uint8),
-        ("control_infomation",  c_uint8),
+        ("control_information",  c_uint8),
         ("checksum", c_uint8),
         ("stop",     c_uint8),
         ("data",     c_uint8 * 252),
