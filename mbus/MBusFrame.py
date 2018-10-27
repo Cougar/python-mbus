@@ -7,7 +7,7 @@ class MBusFrame(Structure):
         return "MBusFrame: XXX"
 
 MBusFrame._fields_ = [
-        ("start1",   c_uint8 * 16),  # MBusFrameFixed
+        ("start1",   c_uint8),
         ("length1",  c_uint8),
         ("length2",  c_uint8),
         ("start2",   c_uint8),
