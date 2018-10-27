@@ -375,7 +375,7 @@ class MBusLib(object):
 
         self.frame_calc_checksum            = lib.mbus_frame_calc_checksum
         self.frame_calc_checksum.argtypes   = [mbus_frame_p]
-        self.frame_calc_checksum.restypes   = c_int
+        self.frame_calc_checksum.restypes   = c_ubyte
 
         self.frame_calc_length              = lib.mbus_frame_calc_length
         self.frame_calc_length.argtypes     = [mbus_frame_p]
