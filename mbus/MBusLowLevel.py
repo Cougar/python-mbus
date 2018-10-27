@@ -674,3 +674,7 @@ class MBusLib(object):
         self.serial_data_free               = lib.mbus_serial_data_free
         self.serial_data_free.argtypes      = [mbus_handle_p]
         self.serial_data_free.restype       = None
+
+        self.parse_set_debug                = lib.mbus_parse_set_debug
+        self.parse_set_debug.argtypes       = [c_int]
+        self.parse_set_debug.restype        = None
